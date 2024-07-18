@@ -235,7 +235,8 @@ font-size:6.7rem;
 
 .btn {
   position: relative;
-  background-image: var(--gradient-3);
+  background-image: var(--gradient-6);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3), 0 6px 20px rgba(255, 255, 255, 0.3);
   color: var(--text-white);
   font-size: var(--fontSize-6);
   font-weight: var(--weight-semiBold);
@@ -1460,12 +1461,20 @@ h1 {
 .gallery-header{
 display: inline;
 }
+#wall-of-fury{
+  padding-top: 70px;
+  margin-top: -70px;
+}
 
 
 /* CSS for FAQ */
 /* FAQ Section Styling */
 section {
   padding: 50px 0;
+}
+#faqs{
+  padding-top: 70px;
+  margin-top: -70px;
 }
 
 @media (max-width: 768px) {
@@ -1682,6 +1691,10 @@ section {
 .past-winners-header{
   display: inline;
 }
+#past-winners{
+  padding-top: 70px;
+  margin-top: -70px;
+}
 
 .pw-card-container {
     display: flex;
@@ -1694,6 +1707,7 @@ section {
 .pw-card {
     width: 325px;
     background-color: black;
+    /* background-image: var(--gradient-6); */
     border-radius: 8px;
     overflow: hidden;
     margin: 20px;
@@ -1725,6 +1739,7 @@ section {
     display: inline-block;
     padding: 8px 16px;
     background-image: linear-gradient(to left,black,#9742ff);
+    /* box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3), 0 6px 20px rgba(255, 255, 255, 0.3); */
     text-decoration: none;
     border-radius: 4px;
     margin-top: 16px;
