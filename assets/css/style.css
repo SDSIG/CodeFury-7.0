@@ -1791,7 +1791,8 @@ section {
 .contact img
 {
   height:120px;
-  width:fit-content;
+  width:auto;
+  object-fit: cover;
 }
 .contact{
   display: flex;
