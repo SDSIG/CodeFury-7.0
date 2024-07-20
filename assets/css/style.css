@@ -1791,7 +1791,7 @@ section {
 .contact img
 {
   height:120px;
-  width:auto;
+  width:385px;
   object-fit: cover;
 }
 .contact{
@@ -1804,6 +1804,7 @@ section {
 .people
 {
   display: flex;
+  justify-content: space-between;
 }
 .people :hover{
   transform: scale(1.02);
